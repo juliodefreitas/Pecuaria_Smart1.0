@@ -1,0 +1,26 @@
+# Ambiente virtual Python
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Capturas de teste (mantém a pasta, ignora as imagens)
+backend/data/captures/*.jpg
+backend/data/captures/*.png
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Variáveis de ambiente (futuro)
+.env
+.env.local
